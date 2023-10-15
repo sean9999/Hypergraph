@@ -19,7 +19,7 @@ interface DomBag {
 	edges: Link[];
 }
 
-class d3Graph extends Hypergraph{
+class d3ForceDirectedGraph extends Hypergraph{
     d3;
 	svg;
 	simulation;
@@ -224,3 +224,6 @@ class d3Graph extends Hypergraph{
 	}
 
 }
+
+
+export {d3ForceDirectedGraph}
