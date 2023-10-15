@@ -1,0 +1,17 @@
+{
+  "name": "hypergraph",
+  "version": "1.0.0",
+  "description": "active records for graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/d3": "^7.4.1"
+  },
+  "dependencies": {
+    "d3": "^7.8.5"
+  }
+}
