@@ -1,5 +1,5 @@
 
-type uniqueId = string;
+export type uniqueId = string;
 const newUniqueId = (prefix: string): uniqueId => {
 	const hexes = self.crypto.randomUUID().split('-');
 	hexes.pop();
@@ -8,8 +8,8 @@ const newUniqueId = (prefix: string): uniqueId => {
 	return hexes.join('-');
 }
 
-type Vertex = Symbol;
-type Edge = Symbol;
+export type Vertex = Symbol;
+export type Edge = Symbol;
 type EdgeMap = Map<Edge, {from: Vertex, to: Vertex}>;
 type EdgeQuery = (me: Hypergraph) => Set<Edge>;
 type VertexQuery = (me: Hypergraph) => Set<Vertex>;
@@ -139,4 +139,4 @@ class Hypergraph extends EventTarget {
 	}
 }
 
-export {Hypergraph, Vertex, Edge, uniqueId, newUniqueId }
+export {Hypergraph, newUniqueId }
