@@ -1,5 +1,6 @@
 import * as d3 from "d3";
-import {Hypergraph, newUniqueId, uniqueId} from "./hypergraph";
+import {Hypergraph} from "./hypergraph";
+import { newUniqueId, uniqueId } from "./uitls";
 
 interface Point {
 	x?: number;
