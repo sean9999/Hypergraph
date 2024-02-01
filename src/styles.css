@@ -1,3 +1,21 @@
+html {
+    min-height: 100vh; 
+}
+
 body {
-    background-color: bisque;
+    min-height: 100vh;
+}
+
+#graph {
+    background-color: antiquewhite;
+	min-height: 80vh;
+	width: 98vw;
+    border-radius: 20px;
+    border-style: dotted;
+    border-color: brown;
+    border-width: 5px;
+}
+
+button {
+    font-size: x-large;
 }
